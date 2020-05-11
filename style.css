@@ -2,16 +2,19 @@
 
 body {
     margin: 0;
-    font-size: sans-serif;
+    font-family: sans-serif;
 }
 
 .container {
-    background-color: #23424A;
-    color: #fff;
+    background: #23424A;
+    color: white;
 
     width: 80%;
     margin: 0 auto;
-
-    padding: 5em;  /*   16px * 5 = 80px  */ 
+    
+    padding: 3em;
 }
-
+ 
+.intro-content {
+    width: 50%;
+}

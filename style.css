@@ -2,22 +2,16 @@
 
 body {
     margin: 0;
+    font-size: sans-serif;
 }
 
-.parent {
+.container {
     background-color: #23424A;
-    padding: 50px;
+    color: #fff;
 
-    /* width: 900px; */
     width: 80%;
     margin: 0 auto;
+
+    padding: 5em;  /*   16px * 5 = 80px  */ 
 }
 
-.child {
-    background-color: #38CFD9;
-    /*  normally I wouldn't include
-        a height it's just to get 
-        us started. 
-    */
-    height: 250px;
-}

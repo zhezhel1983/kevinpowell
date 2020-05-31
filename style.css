@@ -31,7 +31,7 @@ h1 {
 }
 
 .col + .col {
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .hero {
@@ -46,6 +46,22 @@ h1 {
 
 .hero p {
     margin-bottom: 3em;
+}
+
+.three-col {
+    padding: 3em 0;
+}
+
+.three-col  h2{
+    text-align: center;
+    color: #87629A;
+}
+
+.two-col {
+    text-align: center;
+    padding: 3em 0;
+    background-color: #136c72;
+    color: #fff;
 }
 
 .btn {

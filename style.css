@@ -20,7 +20,7 @@ h1 {
 
 .row {
     display: flex;
-    flex-direction: row;
+   /* align-items: flex-start; */
 
     /* can't use yet */
     /* gap: 100px; */
@@ -46,6 +46,10 @@ h1 {
 
 .hero p {
     margin-bottom: 3em;
+}
+
+.hero__img {
+    align-self: flex-start;
 }
 
 .three-col {

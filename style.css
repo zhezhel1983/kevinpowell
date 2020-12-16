@@ -130,6 +130,7 @@ h1 {
     padding: 100px 0;
     background-color: #23424A;
     color: #FFF;
+ 
 }
 
 .hero__text { 
@@ -159,4 +160,21 @@ h1 {
     text-align: center;
     color: #fff;
     background-color: #136c72;
+}
+
+@media (max-width: 600px) {
+    .row {
+        display: block;
+    }
+
+    .here__text,
+    .hero__img,
+    .primary-content,
+    .sidebar {
+        width: 100%;
+    }
+
+    .hero__img {
+        margin-top: 2em;
+    }
 }
